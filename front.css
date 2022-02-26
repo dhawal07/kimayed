@@ -1,5 +1,5 @@
 @font-face{
-    src: url(/fonts/Bitterbrush\ DEMO.otf);
+    src: url(Bitterbrush\ DEMO.otf);
     font-family: ver;
 }
 
@@ -296,11 +296,11 @@
     color: white;
 }
 .frline008{
-    background-image: url(/img/pomo.jpg);
+    background-image: url(/pomo.jpg);
     margin-right: 50px;
 }
 .frline018{
-    background-image: url(/img/apple.jpg);
+    background-image: url(/apple.jpg);
 }
 .frline008 , .frline018{
     height: 350px;
