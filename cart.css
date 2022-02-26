@@ -1,0 +1,96 @@
+#cartcontainer{
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-size: contain;
+}
+
+
+.cart1{
+    height: 5px;
+    width: 100%;
+    background-color: #437111;
+}
+.cart1 + div > img{
+    height: 45px;
+    width: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.cart2{
+    height: 30px;
+    width: 100%;
+    background-color: #437111;
+}
+
+.cart3{
+    width: 50%;
+    margin: auto;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.cart3a{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    justify-content: space-between;
+}
+.cart3a > h3{
+    margin-right: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cart3a > h3:hover{
+    color: red;
+}
+.cart3a > h1{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.cart3b{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+} 
+.cart3b > img{
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+} 
+.cart3b > h4{
+    font-size: 18px;
+}
+.cart3c{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.cart3c > button{
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    cursor: pointer;
+    background-color: white;
+}
+.cart3c > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.cart4{
+    height: 5px;
+    width: 100%;
+    background-color: #437111;
+}

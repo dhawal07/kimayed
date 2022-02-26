@@ -1,0 +1,246 @@
+@font-face{
+    src: url(/fonts/Bitterbrush\ DEMO.otf);
+    font-family: ver;
+}
+
+#strawbcontainer{
+    font-family: sans-serif;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-size: contain;
+}
+
+.alline3{
+    display: flex;
+    justify-content: center;
+}
+.alline3 > p{
+    margin-right: 22px;
+    cursor: pointer;
+}
+.alline3 > p:hover{
+    text-decoration: underline;
+}
+
+
+.strline3{
+    display: flex;
+    margin-top: 80px;
+    color: rgb(77, 75, 75);
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.strline03{
+    display: flex;
+}
+.strline03 > img{
+    width: 13px;
+    height: 13px;
+    margin-top: 13px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.strline03 > p{
+    font-size: 13px;
+}
+
+.strline4{
+    display: flex;
+    margin-top: 70px;
+}
+.strline04{
+    width: 35%;
+}
+.strline14{
+    width: 75%;
+    margin-left: 100px;
+    padding: 0px;
+    height: auto;
+}
+.strline04 > img{
+    width: 453px;
+    height: 487px;
+}
+.strline14 > h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.strline14 > span , p{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.strline14 > h2{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #98cb4c;
+}
+.strline14 > input{
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid rgb(185, 181, 181);
+}
+.strline14 > button{
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid rgb(185, 181, 181);
+    background-color: white;
+    margin-left: 25px;
+}
+.strline14 > button:hover{
+    background-color: black;
+    color: white;
+}
+.strline14 > h4 , h5{
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.strline14 > h4{
+    border-top: 1px solid rgb(201, 198, 198) ;
+    margin-top: 20px;
+    margin-bottom:10px;
+    padding-top: 15px;
+}
+
+.strline5{
+    display: flex;
+    margin-top: 130px;
+}
+
+.strline05{
+    width: 45%;
+    margin-top: 130px;
+    margin-right: 50px;
+}
+.strline05 > h1{
+    font-family: ver;
+    font-size: 40px;
+}
+.strline05 > {
+    font-size: 19px;
+}
+
+.strline15{
+    width: 55%;
+}
+.strline15 > img{
+    width: 570px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.strline6{
+    width: 100%;
+    height: 570px;
+    background-color: #6f9249;
+    margin-top: 150px;
+}
+.strline06{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.strline006{
+    width: 45%;
+    margin-right: 50px;
+}
+.strline106{
+    width: 45%;
+}
+.strline006 img{
+    width: 120%;
+    margin-top: 150px;
+}
+.strline106{
+    width: 40%;
+    height: 370px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+.strline106 > h1{
+    font-family: ver;
+    font-size: 40px;
+    text-align: center;
+}
+.strline106 > p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.strline7{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 70px;
+}
+
+.strdiv1{
+    margin-right: 0px;
+}
+.strdiv2{
+    margin-left: 0px;
+}
+.strline7  img{
+    height: auto;
+    width: 80%;
+}
+.strline7 h1{
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+.strline7 h2{
+    font-family: ver;
+    font-size: 22px;
+    margin-top: 160px;
+    background-color: red;
+    color: white;
+    width: 250px;
+    text-align: center;
+}
+.strline7 h1{
+    font-family: ver;
+    font-size: 40px;
+}
+
+.strline7 p{
+    width: 650px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.strline07{
+    border-bottom: 1px solid red ;
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.strline007{
+    width: 35%;
+    height: 90px;
+    display: flex;
+}
+.strline007 img{
+    width: 100%;
+}
+.strline007 h5{
+    font-style: normal;
+    margin-left: 30px;
+}
+.stst{
+    margin-top: 20px;
+}
+

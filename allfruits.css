@@ -1,0 +1,121 @@
+#allcontainer{
+    font-family: sans-serif;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
+}
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-size: contain;
+}
+
+
+.alline3{
+    display: flex;
+    justify-content: center;
+}
+.alline3 > p{
+    margin-right: 22px;
+    cursor: pointer;
+}
+.alline3 > p:hover{
+    text-decoration: underline;
+}
+
+.alline4{
+    display: flex;
+    margin-top: 80px;
+    color: rgb(77, 75, 75);
+    justify-content: space-between;
+}
+.alline04{
+    display: flex;
+}
+.alline04 > img{
+    width: 13px;
+    height: 13px;
+    margin-top: 13px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.alline04 > p{
+    font-size: 13px;
+}
+.allinep{
+    font-size: 13px;
+}
+
+.alline5 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,440px);
+    gap: 30px;
+    row-gap: 150px;
+}
+.alline5 > div{
+    border-radius: 25px;
+}
+.alline5 img{
+    height: 350px;
+    width: auto;
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+.alline5  h3,h1{
+    text-align: center;
+}
+.alline5  h3{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.alline5  h1{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: lighter;
+    color: red;
+}
+.alline5 button{
+    border: 0px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+    background-color: #437111;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.alline5 button:hover{
+    background-color: #97dd46;
+    color: black;
+    font-weight: bold;
+}
+.allcart{
+    display: flex;
+}
+.allcart  img{
+    height: 14px;
+    width: 16px;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.alline03{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.alline03 > p{
+    margin-right: 22px;
+    cursor: pointer;
+}
+.alline03 > p:hover{
+    text-decoration: underline;
+}
+

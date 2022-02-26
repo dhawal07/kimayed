@@ -1,0 +1,118 @@
+#combocontainer{
+    font-family: sans-serif;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
+}
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-size: contain;
+}
+
+.comboline3{
+    display: flex;
+    justify-content: center;
+}
+.comboline3 > p{
+    margin-right: 22px;
+    cursor: pointer;
+}
+.comboline3 > p:hover{
+    text-decoration: underline;
+}
+
+.comboline4{
+    display: flex;
+    margin-top: 80px;
+    color: rgb(77, 75, 75);
+    justify-content: space-between;
+}
+.comboline04{
+    display: flex;
+}
+.comboline04 > img{
+    width: 13px;
+    height: 13px;
+    margin-top: 13px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.comboline04 > p{
+    font-size: 13px;
+}
+.combolinep{
+    font-size: 13px;
+}
+
+.comboline5 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,440px);
+    gap: 30px;
+    row-gap: 150px;
+}
+.comboline5 > div{
+    border-radius: 25px;
+}
+.comboline5 img{
+    height: 350px;
+    width: auto;
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+.comboline5  h3,h1{
+    text-align: center;
+}
+.comboline5  h3{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.comboline5  h1{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: lighter;
+    color: red;
+}
+.comboline5 button{
+    border: 0px;
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+    background-color: #437111;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.comboline5 button:hover{
+    background-color: #97dd46;
+    color: black;
+    font-weight: bold;
+}
+.combocart{
+    display: flex;
+}
+.combocart  img{
+    height: 14px;
+    width: 16px;
+    color: white;
+    margin-right: 10px;
+}
+
+.comboline03{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.comboline03 > p{
+    margin-right: 22px;
+    cursor: pointer;
+}
+.comboline03 > p:hover{
+    text-decoration: underline;
+}
